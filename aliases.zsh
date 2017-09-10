@@ -14,4 +14,4 @@ alias zshreload="source ~/.zshrc"
 alias server='open http://localhost:5555 && python -m SimpleHTTPServer'
 
 # list globally installed npm packges
-alias npmlg='npm list -g --depth'
+alias npmlg='npm list -g --depth=0'
