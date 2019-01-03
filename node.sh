@@ -34,3 +34,7 @@ echo "Installing alfred-npms"
 npm i -g alfred-npms
 echo "Installing Alfred fkill"
 npm i -g alfred-fkill
+
+echo "Reload bash profile and zsh"
+source ~/.bash_profile
+source ~/.zshrc
