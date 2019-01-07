@@ -1,17 +1,13 @@
 {
-  "workbench.colorTheme": "Tomorrow_Night_Eighties",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Night Owl",
+  "git.confirmSync": false,
   "window.titleBarStyle": "native",
   "editor.tabSize": 2,
-  "editor.tabCompletion": true,
   "editor.minimap.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "editor.rulers": [80],
-  "editor.formatOnSave": false,
-  "editor.renderWhitespace": "all",
-  "editor.autoIndent": true,
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true,
-  "git.confirmSync": false
+  "files.insertFinalNewline": true
 }
