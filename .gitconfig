@@ -8,7 +8,7 @@
 
   # Show changed words
   diword = diff --word-diff
-  
+
   # View history graph of the latest 20 commits, description, and SHA abbreviation
   graph = log --oneline -n 20 --graph --abbrev-commit
 
@@ -21,10 +21,10 @@
   # View who has commited how much in a project
   # handy options --all --no-merges or --since='8 weeks'
   stats = shortlog -sn
- 
+
 [core]
   # Use custom `.gitignore`
-  excludesfile = ~/.gitignore 
+  excludesfile = ~/.gitignore
 
 [color]
   ui = auto

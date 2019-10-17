@@ -1,5 +1,5 @@
 # list handling
-alias ll='ls -lahF'
+alias ll="exa -la --git"
 
 # ip address
 alias ip="echo Your ip is; dig +short myip.opendns.com @resolver1.opendns.com;"
@@ -15,3 +15,6 @@ alias server='open http://localhost:5555 && python -m SimpleHTTPServer'
 
 # list globally installed npm packges
 alias npmlg='npm list -g --depth=0'
+
+# cat with syntax highliting
+alias cat="bat"
