@@ -34,6 +34,12 @@ echo "Installing alfred-npms"
 npm i -g alfred-npms
 echo "Installing Alfred fkill"
 npm i -g alfred-fkill
+echo "Installing progressive web metrics"
+npm i -g pwmetrics
+echo "Installing Node Task List"
+npm i -g ntl
+echo "Installing Now"
+npm i -g now
 
 echo "Reload bash profile and zsh"
 source ~/.bash_profile

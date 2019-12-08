@@ -1,13 +1,36 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Night Owl",
-  "git.confirmSync": false,
-  "window.titleBarStyle": "native",
+  "workbench.colorTheme": "Noctis",
   "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
   "editor.minimap.enabled": false,
   "editor.scrollBeyondLastLine": false,
-  "editor.rulers": [80],
+  "editor.rulers": [85],
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.keymap": "alternate",
+  "gitlens.explorers.avatars": false,
+  "gitlens.views.avatars": false,
+  "gitlens.views.compare.avatars": false,
+  "gitlens.views.repositories.avatars": false,
+  "gitlens.views.search.avatars": false,
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrapColumn": 85,
+  "editor.wordWrap": "wordWrapColumn",
+  "files.associations": {
+    "*.svelte": "svelte",
+    ".postcssrc": "json",
+    "*.html": "html"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

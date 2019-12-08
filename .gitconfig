@@ -33,3 +33,6 @@
   old = red strike # deletions
   new = green italic # additions
 
+[commit]
+	gpgsign = true
+[gpg]
