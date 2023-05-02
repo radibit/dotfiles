@@ -1,0 +1,13 @@
+{
+  "nova-extensions": [
+    "nova://extension/?id=org.netwrk.actionlint&name=Actionlint",
+    "nova://extension/?id=sciencefidelity.astro&name=Astro",
+    "nova://extension/?id=innoract.ENV&name=ENV",
+    "nova://extension/?id=com.digitalmoksha.novagitabilities&name=Git%20Abilities",
+    "nova://extension/?id=apexskier.json&name=JSON",
+    "nova://extension/?id=alexanderweiss.prettier&name=Prettier",
+    "nova://extension/?id=jasonplatts.tailwindcss&name=Tailwind%20CSS",
+    "nova://extension/?id=biati.texttools&name=Text%20Tools",
+    "nova://extension/?id=apexskier.typescript&name=TypeScript"
+  ]
+}

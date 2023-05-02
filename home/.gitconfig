@@ -1,38 +1,48 @@
 [user]
   name = radibit
   email = radimir.bitsov@gmail.com
+  signingkey = ssh-ed25519 ...
 
 [alias]
   # Show only names and the nature of change (in reverse), but not actual diff output
   changes = diff --name-status -r
-
   # Show changed words
   diword = diff --word-diff
-
   # View history graph of the latest 20 commits, description, and SHA abbreviation
   graph = log --oneline -n 20 --graph --abbrev-commit
-
   # View what everyone did in the last two weeks
   overview = log --all --since='2 weeks' --oneline --no-merges
-
   # View today's work
   today = log --since=00:00:00 --all --no-merges --oneline --author=<radimir.bitsov@gmail.com>
-
   # View who has commited how much in a project
   # handy options --all --no-merges or --since='8 weeks'
   stats = shortlog -sn
-
+  
 [core]
   # Use custom `.gitignore`
-  excludesfile = ~/.gitignore
-
+  excludesfile = ~/.gitignore_global
+  editor = vim
+  
 [color]
+  diff = auto
+  stats = auto
+  branch = auto
   ui = auto
-
-[color "diff"]
-  old = red strike # deletions
-  new = green italic # additions
+    
+[help]
+  autocorrect = prompt  
 
 [commit]
-	gpgsign = true
+  gpgsign = true
+  
 [gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[init]
+  defaultBranch = main
+
+[push]
+  autoSetupRemote = true

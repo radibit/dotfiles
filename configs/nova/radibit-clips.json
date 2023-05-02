@@ -1,0 +1,21 @@
+{
+  "clips" : [
+    {
+      "children" : [
+        {
+          "content" : "console.log($0)",
+          "name" : "console log",
+          "scope" : "editor",
+          "trigger" : "log"
+        },
+        {
+          "content" : "debugger;",
+          "name" : "debugger",
+          "scope" : "editor",
+          "trigger" : "dbg"
+        }
+      ],
+      "name" : "JS"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "menuItems" : {
+    "OpenQuickly" : {
+      "shortcut" : "cmd-p"
+    },
+    "Print" : {
+      "shortcut" : "ctrl-p"
+    },
+    "ShowGitSidebar" : {
+      "shortcut" : "cmd-ctrl-g"
+    },
+    "ShowHelp" : {
+      "shortcut" : "alt-?"
+    },
+    "ShowInFilesSidebar" : {
+      "shortcut" : "cmd-shift-e"
+    },
+    "ToggleCommentAlternate" : {
+      "shortcut" : "cmd-ctrl-\/"
+    },
+    "UseSelectionForReplace" : {
+      "shortcut" : "cmd-shift-v"
+    }
+  }
+}
