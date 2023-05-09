@@ -7,7 +7,7 @@ echo "#############################"
 echo ""
 
 echo "show hidden files by default"
-defaults write com.apple.Finder AppleShowAllFiles -bool false
+defaults write com.apple.Finder AppleShowAllFiles -bool true
 
 echo "Enable automatically hide and show the Dock"
 defaults write com.apple.dock autohide -bool true
